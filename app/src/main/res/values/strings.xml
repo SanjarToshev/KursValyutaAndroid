@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Curss</string>
+
+
+    <string-array name="currencies">
+        <item>USA</item>
+        <item>RUB</item>
+        <item>EUR</item>
+        <item>TRKY</item>
+        <item>KZT</item>
+        <item>CNY</item>
+        <item>ZAR</item>
+    </string-array>
+
+    <string-array name="description">
+        <item>This is random description.</item>
+        <item>This is random description.</item>
+        <item>This is random description.</item>
+        <item>This is random description.</item>
+        <item>This is random description.</item>
+        <item>This is random description.</item>
+        <item>This is random description.</item>
+
+
+
+
+
+    </string-array>
+    
+
+</resources>
