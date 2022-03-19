@@ -1,5 +1,7 @@
 package com.example.curss;
 
+
+
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -17,13 +19,6 @@ import com.google.android.material.navigation.NavigationBarView;
 public class MainActivity extends AppCompatActivity {
 
 
-    private RecyclerView recyclerView;
-
-    String s1[], s2[];
-    int images[] = {R.drawable.usa, R.drawable.rus, R.drawable.eur, R.drawable.tryk, R.drawable.kzt, R.drawable.cny, R.drawable.zar};
-
-
-
 
     private ViewPager2 mViewPager2;
     private BottomNavigationView mBottomNavigationView;private RelativeLayout relativeLayout;
@@ -34,14 +29,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        recyclerView = findViewById(R.id.recyclerView);
 
-        s1 = getResources().getStringArray(R.array.currencies);
-        s2 = getResources().getStringArray(R.array.description);
 
-        MyAdapter myAdapter = new MyAdapter(this, s1, s2, images);
-        recyclerView.setAdapter(myAdapter);
-        recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
 
 
