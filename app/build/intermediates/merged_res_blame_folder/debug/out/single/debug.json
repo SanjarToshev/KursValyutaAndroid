@@ -36,12 +36,12 @@
         "source": "C:\\Users\\sanja\\AndroidStudioProjects\\Curss\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\sanja\\AndroidStudioProjects\\Curss\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_currency_exchange_24.xml.flat",
-        "source": "C:\\Users\\sanja\\AndroidStudioProjects\\Curss\\app\\src\\main\\res\\drawable\\ic_baseline_currency_exchange_24.xml"
-    },
-    {
         "merged": "C:\\Users\\sanja\\AndroidStudioProjects\\Curss\\app\\build\\intermediates\\merged_res\\debug\\menu_menu.xml.flat",
         "source": "C:\\Users\\sanja\\AndroidStudioProjects\\Curss\\app\\src\\main\\res\\menu\\menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\sanja\\AndroidStudioProjects\\Curss\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_currency_exchange_24.xml.flat",
+        "source": "C:\\Users\\sanja\\AndroidStudioProjects\\Curss\\app\\src\\main\\res\\drawable\\ic_baseline_currency_exchange_24.xml"
     },
     {
         "merged": "C:\\Users\\sanja\\AndroidStudioProjects\\Curss\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
@@ -52,8 +52,16 @@
         "source": "C:\\Users\\sanja\\AndroidStudioProjects\\Curss\\app\\src\\main\\res\\drawable\\kzt.png"
     },
     {
+        "merged": "C:\\Users\\sanja\\AndroidStudioProjects\\Curss\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_search_24.xml.flat",
+        "source": "C:\\Users\\sanja\\AndroidStudioProjects\\Curss\\app\\src\\main\\res\\drawable\\ic_baseline_search_24.xml"
+    },
+    {
         "merged": "C:\\Users\\sanja\\AndroidStudioProjects\\Curss\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_incomplete_circle_24.xml.flat",
         "source": "C:\\Users\\sanja\\AndroidStudioProjects\\Curss\\app\\src\\main\\res\\drawable\\ic_baseline_incomplete_circle_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\sanja\\AndroidStudioProjects\\Curss\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_swap_vert_24.xml.flat",
+        "source": "C:\\Users\\sanja\\AndroidStudioProjects\\Curss\\app\\src\\main\\res\\drawable\\ic_baseline_swap_vert_24.xml"
     },
     {
         "merged": "C:\\Users\\sanja\\AndroidStudioProjects\\Curss\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_konverter.xml.flat",

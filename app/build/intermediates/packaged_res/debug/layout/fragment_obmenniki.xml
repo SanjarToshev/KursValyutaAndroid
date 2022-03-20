@@ -1,19 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:background="@color/black"
     tools:context=".fragment.ObmennikiFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
+        android:id="@+id/obmennik_tepa"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="#1B1B1B">
+
+
+        <TextView
+            android:id="@+id/obmenniki_tex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Обменники"
+            android:textColor="#ffffff"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="200dp"
+
+            android:src="@drawable/ic_baseline_search_24" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_swap_vert_24" />
+
+    </LinearLayout>
+
+
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView_obmennik"
+        android:background="@color/white"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Obmennik Flagment"
-        android:textSize="26dp"
-        android:layout_gravity="center"
-        android:textColor="@color/white"
-        />
+        android:layout_marginTop="10dp" />
 
-</FrameLayout>
+
+
+</LinearLayout>

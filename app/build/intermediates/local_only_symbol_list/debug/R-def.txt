@@ -18,6 +18,8 @@ drawable ic_baseline_home_24
 drawable ic_baseline_incomplete_circle_24
 drawable ic_baseline_loop_24
 drawable ic_baseline_more_horiz_24
+drawable ic_baseline_search_24
+drawable ic_baseline_swap_vert_24
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable kzt
@@ -27,6 +29,8 @@ drawable usa
 drawable zar
 id buttonNavigation
 id glavnaya
+id imageView
+id imageView2
 id item1
 id item2
 id item3
@@ -35,7 +39,10 @@ id item5
 id myImageView
 id myText1
 id myText2
+id obmennik_tepa
+id obmenniki_tex
 id recyclerView
+id recyclerView_obmennik
 id tepa
 id view_pager_2
 layout activity_main
